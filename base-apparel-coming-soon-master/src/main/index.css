@@ -1,0 +1,76 @@
+body {
+    padding: auto;
+    margin: 0 auto;
+}
+main img{
+    margin: 66px 160px;
+}
+
+P{
+    line-height: 1.8px;
+    letter-spacing: 4px;
+    margin: 66px 160px;
+    font-size: 45pt;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description p{ 
+    font-size: 16px;
+    line-height: 2.2rem;
+    color: hsl(0, 36%, 70%);
+}
+
+form {
+    margin: 61px 160px 55px;
+}
+
+form input{
+    border-radius: 33px;
+    height: 51px;
+    width: 390px;
+    border-style: solid;
+}
+
+::placeholder{
+    color: black;
+    padding-left: 30px;
+}
+
+form img {
+    position: absolute;
+    right: 917px;
+    margin-top: 17px;
+    visibility: hidden;
+}
+
+form button{
+    background-color: brown;
+    color: white;
+    height: 53px;
+    width: 84px;
+    border-radius: 25.5px;
+    font-size: 16px;
+    border-style: solid;
+}
+
+form button:hover{
+    background-color: rgb(190, 149, 149);
+    border: none;
+}
+
+form #error {
+    margin: 10px 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: hsl(0, 36%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero_img img {
+   /* margin-top: 50px;*/
+    float: right;
+    height: 757px;
+    width: 550px;
+}
